@@ -5,7 +5,6 @@ WORKDIR /udpt
 COPY . .
 
 # Build
-RUN cargo test
 RUN cargo build --release
 
 # Artifact
